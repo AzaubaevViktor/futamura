@@ -188,7 +188,7 @@ class Specializer:
             116: self.load_global,
             LOAD_FAST_CODE: self.load_fast,
             131: self.call_function,
-            STORE_FAST_CODE: self.store_fast
+            STORE_FAST_CODE: self.store_fast,
         }
 
     def run(self, *args, **kwargs):
