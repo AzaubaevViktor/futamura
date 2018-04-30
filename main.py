@@ -151,6 +151,7 @@ def f(a, b):
 
 def g(x, y):
     z = 10
+
     print(x)
     x = x * 2 + 1 + y
     print(x)
